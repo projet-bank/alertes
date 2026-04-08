@@ -20,14 +20,14 @@
   import { getAuth, signInWithEmailAndPassword, signOut, onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/10.7.0/firebase-auth.js';
   import { getFirestore, doc, getDoc, setDoc } from 'https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js';
 
-  const firebaseConfig = {
-    apiKey:            "VOTRE_API_KEY",
-    authDomain:        "VOTRE_PROJECT.firebaseapp.com",
-    projectId:         "VOTRE_PROJECT_ID",
-    storageBucket:     "VOTRE_PROJECT.appspot.com",
-    messagingSenderId: "VOTRE_SENDER_ID",
-    appId:             "VOTRE_APP_ID"
-  };
+const firebaseConfig = {
+  apiKey: "AIzaSyCQQOZO4hUOTPVkdTl8L5sRaZntoaD4LEg",
+  authDomain: "app-garantie.firebaseapp.com",
+  projectId: "app-garantie",
+  storageBucket: "app-garantie.firebasestorage.app",
+  messagingSenderId: "469434862908",
+  appId: "1:469434862908:web:96ffb9a1b9696a67c96239"
+};
 
   const app  = initializeApp(firebaseConfig);
   const auth = getAuth(app);
