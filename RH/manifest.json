@@ -1,0 +1,48 @@
+{
+  "name": "RH Dashboard — Ressources Humaines",
+  "short_name": "RH Dashboard",
+  "description": "Tableau de bord de gestion des ressources humaines",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#f5f7fa",
+  "theme_color": "#e8620a",
+  "orientation": "any",
+  "lang": "fr",
+  "categories": ["productivity", "utilities", "business"],
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Contrats urgents",
+      "short_name": "Urgents",
+      "description": "Voir les contrats urgents",
+      "url": "/index.html#contrats",
+      "icons": [{ "src": "assets/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Tous les employés",
+      "short_name": "Employés",
+      "description": "Liste complète",
+      "url": "/index.html#employes",
+      "icons": [{ "src": "assets/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
