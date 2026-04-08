@@ -1,0 +1,33 @@
+{
+  "name": "GarantiesTrack — Suivi des Garanties Bancaires",
+  "short_name": "GarantiesTrack",
+  "description": "Tableau de bord dynamique de suivi des garanties bancaires",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#f5f7fa",
+  "theme_color": "#e8620a",
+  "orientation": "any",
+  "lang": "fr",
+  "categories": ["finance", "productivity", "business"],
+  "icons": [
+    { "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "assets/maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Échéances urgentes",
+      "short_name": "Urgentes",
+      "description": "Voir les garanties urgentes",
+      "url": "/index.html#echeances",
+      "icons": [{ "src": "assets/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Toutes les garanties",
+      "short_name": "Garanties",
+      "description": "Tableau complet",
+      "url": "/index.html#garanties",
+      "icons": [{ "src": "assets/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
